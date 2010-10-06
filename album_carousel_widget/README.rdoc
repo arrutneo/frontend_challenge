@@ -1,7 +1,7 @@
 = The album carousel widget
 
 The objective is to create a simple widget to navigate through 
-<strong>many<strong> different albums. The widget will look something like this:
+<strong>many</strong> different albums. The widget will look something like this:
 
 http://s3.amazonaws.com/ember/F65U5o7orp42zOLoTpGlUYbiUAN5EWIp_o.png
 
