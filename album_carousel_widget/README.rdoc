@@ -1,9 +1,9 @@
 = The album carousel widget
 
 The objective is to create a simple widget to navigate through 
-bold:many different albums. The widget will look something like this:
+<strong>many<strong> different albums. The widget will look something like this:
 
-(http://s3.amazonaws.com/ember/F65U5o7orp42zOLoTpGlUYbiUAN5EWIp_o.png)
+http://s3.amazonaws.com/ember/F65U5o7orp42zOLoTpGlUYbiUAN5EWIp_o.png
 
 When you click on an image of the carousel bar in the left
 the widget must open up an overlay similar to the one on the right.
@@ -46,6 +46,6 @@ we would like to see the time it took to reach your solution also.
 
 == Notes and Caveats
 
-Please only use a single library or framework. 
-Don't use any plugin
-We preffer you only use JQuery.
+* Please only use a single library or framework. 
+* Don't use any plugin
+* We preffer you only use JQuery.
