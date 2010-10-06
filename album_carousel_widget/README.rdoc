@@ -1,0 +1,51 @@
+= The album carousel widget
+
+The objective is to create a simple widget to navigate through 
+bold:many different albums. The widget will look something like this:
+
+(http://s3.amazonaws.com/ember/F65U5o7orp42zOLoTpGlUYbiUAN5EWIp_o.png)
+
+When you click on an image of the carousel bar in the left
+the widget must open up an overlay similar to the one on the right.
+
+The top left/right arrows navigate through the pictures of a particular
+album. The bottom left/rignt arrows navigate through the album collection
+
+== The input
+
+The input will be an array of hashes like such:
+
+    [
+      {
+        name: 'My Grand Mothers Bday',
+        album_image: 'path_to_image/image.png'
+        images: ['path_to_image/image.png', ...]
+      }, ...
+    ]
+
+== The deliverable
+
+Please fork the complete repo and create a folder named 'solution'
+in the same folder where you find this READEME.rdoc file.
+
+The folder must contain this structure
+
+    solution/
+      index.html
+      carousel.js
+      javascripts/
+        your_favorite_library.js
+      css/
+        carousel.js
+      images/
+        any_images_you_might_need.png
+
+Commit as often as you can and push your solution when its finished.
+At least push once when you start the solution and once you end it,
+we would like to see the time it took to reach your solution also.
+
+== Notes and Caveats
+
+Please only use a single library or framework. 
+Don't use any plugin
+We preffer you only use JQuery.
