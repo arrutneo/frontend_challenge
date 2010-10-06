@@ -5,8 +5,16 @@ The objective is to create a simple widget to navigate through
 
 http://s3.amazonaws.com/ember/F65U5o7orp42zOLoTpGlUYbiUAN5EWIp_o.png
 
-When you click on an image of the carousel bar in the left
-the widget must open up an overlay similar to the one on the right.
+The carousel bar in the left is what you see in the ui at first.
+Each image in the carousel represents the main album image,
+each album has an X amount of images.
+When you click on an image of the carousel bar
+an overlay similar to the one on the right pops up.
+
+The overlay displays the same carousel in the bottom and the first
+image from the album that was clicked in the top. When another 
+image from the carousel in the bottom is clicked, the top part
+loads the first image from the album that was clicked.
 
 The top left/right arrows navigate through the pictures of a particular
 album. The bottom left/rignt arrows navigate through the album collection
@@ -22,6 +30,16 @@ The input will be an array of hashes like such:
         images: ['path_to_image/image.png', ...]
       }, ...
     ]
+
+== The nitty gritty
+
+You can hard code the array of hashes in your code or you can load
+it from the dom for extra points.
+
+Also for extra points you can add fancy styles and effects!
+
+Finally if you want even more extra points you can provide your
+widget with an api to be used as a plugin.
 
 == The deliverable
 
