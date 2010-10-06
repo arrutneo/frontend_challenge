@@ -36,7 +36,7 @@ The folder must contain this structure
       javascripts/
         your_favorite_library.js
       css/
-        carousel.js
+        carousel.css
       images/
         any_images_you_might_need.png
 
