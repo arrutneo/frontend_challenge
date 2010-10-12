@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<albums>
+   <album id="cat_1">
+     <title>Album 1</title>
+    <album_thumbnail>album1_thumbnail.png</album_thumbnail>
+    <album_src>album1</album_src>
+      <images>
+       <image>image1.png</image>
+      </images>
+   </album>
+   <album id="cat_2">
+     <title>Album 2</title>
+    <album_thumbnail>album2_thumbnail.png</album_thumbnail>
+     <album_src>album2</album_src>
+     <images>
+       <image>image1.png</image>
+     </images>
+   </album>
+   <album id="cat_3">
+     <title>Album 3</title>
+    <album_thumbnail>album3_thumbnail.png</album_thumbnail>
+    <album_src>album3</album_src>
+    <images>
+     <image>image1.png</image>
+    </images>
+   </album>
+ </albums>

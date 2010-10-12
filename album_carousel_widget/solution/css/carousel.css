@@ -4,10 +4,15 @@ ol, ul {list-style:none}
 /*CAROUSEL CSS*/
 body{font-family:Arial, Helvetica, sans-serif;background:#d9ca9c;color:black}
 #container{width:30em;margin:2.75em auto 0;overflow:hidden}
-#container a{display:block;text-align:center;text-decoration:none;color:#d9b64e}
+#container #display a{display:block;text-align:center;text-decoration:none;color:#d9b64e}
 #container #display a.nav-left{float:left;width:.875em;font-size:2em;padding-top:7em}
 #container #display a.nav-right{float:right;width:.875em;font-size:2em;padding-top:7em}
-#container #album_nav a.nav-left{float:left;width:1.75em;padding-top:3.75em}
-#container #album_nav a.nav-right{float:right;width:1.75em;padding-top:3.75em}
+#container #album_nav a.nav-left,
+#container #album_nav a.nav-right{display:block;text-align:center;text-decoration:none;color:#d9b64e}
+#container #album_nav a.nav-left{float:left;width:1.75em;padding-top:1.25em}
+#container #album_nav a.nav-right{float:right;width:1.75em;padding-top:1.25em}
 #container #display{height:30em;overflow:hidden;background:#bf2e21;-moz-border-radius:.5em;border-radius:.5em}
-#container #album_nav{clear:both;height:9.25em;overflow:hidden;background:#bf2e21;-moz-border-radius:.5em;border-radius:.5em;}
+#container #album_nav{clear:both;height:3.5em;overflow:hidden;background:#bf2e21;-moz-border-radius:.5em;border-radius:.5em;padding:2.5em 0}
+#container #albums{position: relative}
+.thumbs{width: 26em;position: relative;overflow: hidden}
+#container #albums li{float:left;padding-left:2.5em;width:3.5em;height:3.5em;}
