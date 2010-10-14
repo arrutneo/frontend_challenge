@@ -2,26 +2,69 @@
 <albums>
    <album id="cat_1">
      <title>Album 1</title>
-    <album_thumbnail>album1_thumbnail.png</album_thumbnail>
-    <album_src>album1</album_src>
+    <album_thumbnail>album1_thumbnail.jpg</album_thumbnail>
       <images>
-       <image>image1.png</image>
+       <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+	   <image>image4.jpg</image>
       </images>
    </album>
    <album id="cat_2">
      <title>Album 2</title>
-    <album_thumbnail>album2_thumbnail.png</album_thumbnail>
-     <album_src>album2</album_src>
+    <album_thumbnail>album2_thumbnail.jpg</album_thumbnail>
      <images>
-       <image>image1.png</image>
+       <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
      </images>
    </album>
    <album id="cat_3">
      <title>Album 3</title>
-    <album_thumbnail>album3_thumbnail.png</album_thumbnail>
-    <album_src>album3</album_src>
+    <album_thumbnail>album3_thumbnail.jpg</album_thumbnail>
     <images>
-     <image>image1.png</image>
+	   <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+	   <image>image4.jpg</image>
+    </images>
+   </album>
+   <album id="cat_4">
+     <title>Album 4</title>
+    <album_thumbnail>album4_thumbnail.jpg</album_thumbnail>
+     <images>
+       <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+     </images>
+   </album>
+   <album id="cat_5">
+     <title>Album 5</title>
+    <album_thumbnail>album5_thumbnail.jpg</album_thumbnail>
+    <images>
+	   <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+	   <image>image4.jpg</image>
+    </images>
+   </album>
+   <album id="cat_6">
+     <title>Album 6</title>
+    <album_thumbnail>album6_thumbnail.jpg</album_thumbnail>
+     <images>
+       <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+     </images>
+   </album>
+   <album id="cat_7">
+     <title>Album 7</title>
+    <album_thumbnail>album7_thumbnail.jpg</album_thumbnail>
+    <images>
+	   <image>image1.jpg</image>
+	   <image>image2.jpg</image>
+	   <image>image3.jpg</image>
+	   <image>image4.jpg</image>
     </images>
    </album>
  </albums>
