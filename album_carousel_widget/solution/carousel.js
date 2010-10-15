@@ -24,7 +24,8 @@ function prueba(){
       $('#album_nav .nav-left').click(function (){
         var thumbs = $("#albums");
         thumbs.stop().animate({left: 0});
-        if(thumbs.position().left > thumbWidth * itemsToShow)
+		//alert(thumbs.position().left);
+        if(thumbs.position().left == 0)
         {
           thumbs.stop().animate({left: 0});
         }
@@ -41,7 +42,15 @@ function prueba(){
     {
       $('#album_nav .nav-right').click(function (){
         var thumbs = $("#albums");
-        thumbs.stop().animate({left: "-=" + 96});
+		var preg = ((thumbs.width() - 112)*-1);
+		if(thumbs.position().left <= preg )
+        {
+		  thumbs.stop().animate({left: 0});
+        }
+        else
+        {
+          thumbs.stop().animate({left: "-=" + 96});
+        }
         return false;
       });
     }
@@ -132,7 +141,7 @@ function create_detail_image_box()
       $('#display .nav-left').click(function (){
         var imgGallery = $("#detail");
         imgGallery.stop().animate({left: 0});
-        if(imgGallery.position().left == 419.5)
+        if(imgGallery.position().left == 0)
         {
           imgGallery.stop().animate({left: 0});
         }
